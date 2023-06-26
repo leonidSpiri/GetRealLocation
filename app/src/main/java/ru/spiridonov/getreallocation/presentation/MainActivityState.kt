@@ -1,6 +1,6 @@
 package ru.spiridonov.getreallocation.presentation
 
-import ru.spiridonov.getreallocation.data.repository.CellLocation
+import ru.spiridonov.getreallocation.domain.entity.CellLocation
 
 sealed class MainActivityState {
     object Loading : MainActivityState()

@@ -1,4 +1,4 @@
-package ru.spiridonov.getreallocation.data.repository
+package ru.spiridonov.getreallocation.domain.entity
 
 data class CellLocation(
     val status: String,

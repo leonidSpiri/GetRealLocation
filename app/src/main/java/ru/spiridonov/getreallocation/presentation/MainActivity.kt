@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.lifecycle.ViewModelProvider
 import ru.spiridonov.getreallocation.R
-import ru.spiridonov.getreallocation.data.repository.CellLocation
+import ru.spiridonov.getreallocation.domain.entity.CellLocation
 import ru.spiridonov.getreallocation.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

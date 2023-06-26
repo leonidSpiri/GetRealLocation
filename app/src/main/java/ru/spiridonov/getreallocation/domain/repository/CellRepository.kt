@@ -1,7 +1,7 @@
 package ru.spiridonov.getreallocation.domain.repository
 
 import kotlinx.coroutines.flow.Flow
-import ru.spiridonov.getreallocation.data.repository.CellLocation
+import ru.spiridonov.getreallocation.domain.entity.CellLocation
 import ru.spiridonov.getreallocation.domain.entity.CellInfo
 
 interface CellRepository {
