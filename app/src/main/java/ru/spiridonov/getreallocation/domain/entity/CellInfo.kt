@@ -5,9 +5,9 @@ import ru.spiridonov.getreallocation.config.Config
 
 data class CellInfo(
     val token: String = Config.OPENCELLID_API_KEY,
-    var radio: String,
-    var mcc: Int,
-    var mnc: Int,
-    var cells: List<Cell>,
-    val address: Int
+    var radio: String? = null,
+    var mcc: Int? = null,
+    var mnc: Int? = null,
+    var cells: List<Cell>? = null,
+    val address: Int? = null
 )

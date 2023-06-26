@@ -20,6 +20,4 @@ data class CellLocationResponseModel(
     @SerializedName("lon")
     @Expose
     val longitude: Double? = null
-) {
-    fun isSuccess() = status == "ok"
-}
+)

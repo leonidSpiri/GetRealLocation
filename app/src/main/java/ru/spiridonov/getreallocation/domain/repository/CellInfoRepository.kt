@@ -7,10 +7,4 @@ import ru.spiridonov.getreallocation.domain.entity.CellInfo
 
 interface CellInfoRepository {
     fun getCurrentCellInfo(): List<CellInfo>
-
-    fun getCellInfo(
-        infoGsm: CellInfoGsm? = null,
-        infWcfmao: CellInfoWcdma? = null,
-        infoLte: CellInfoLte? = null
-    ): CellInfo
 }

@@ -1,5 +1,5 @@
 package ru.spiridonov.getreallocation.config
 
 object Config {
-    val OPENCELLID_API_KEY = ""
+    const val OPENCELLID_API_KEY = "PASTE YPUR API KEY HERE"
 }
